@@ -1,0 +1,63 @@
+.Restaurant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23rem;
+    height: 26rem;
+    margin: 1rem 0.5rem;
+    margin-bottom: 6rem;
+}
+
+.image-container {
+    background-color: black; 
+    height: 23rem;
+    display: flex;
+}
+
+.image-container img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:white;
+}
+
+.restaurant-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant-info p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height : 0.25rem;
+  }
+
+.restaurant-address {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+}
+.restaurant-address p {
+    align-self: flex-start;
+    text-align: start;
+    line-height : 0;
+}
+
+.restaurant-info2 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.restaurant-info2 p{
+    align-self: flex-end;
+    text-align: end;
+    line-height: 0;
+}
+
+

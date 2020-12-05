@@ -17,10 +17,11 @@ const Yelp = {
                         address: business.location.address1,
                         city: business.location.city,
                         state: business.location.state,
-                        zipCode: business.zip_code,
-                        category: business.categories.alias,
+                        zipCode: business.location.zip_code,
                         rating: business.rating,
-                        transactions: business.transactions
+                        transactions: business.transactions,
+                        reviews: business.review_count,
+                        url: business.url
                     }
                 })
             }

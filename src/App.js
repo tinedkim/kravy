@@ -18,10 +18,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>kravy - covid edition</h1>
+        <h1>kravy</h1>
+        <p>Search a location to see if nearby restaurants have pickup or delivery services!</p>
         <SearchBar searchYelp = {searchYelp}/>
-        <RestaurantArray restaurants = {restaurants}/>
       </header>
+      <body>
+        <RestaurantArray restaurants = {restaurants}/>
+      </body>
     </div>
   );
 }
